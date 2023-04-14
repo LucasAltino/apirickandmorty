@@ -8,17 +8,19 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-#logo2{
+#logo2 img{
     margin-left: 30px;
+    width: 250px;
+    margin-top: 30px;
 }
-#topo{
+#forms{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 #categorias{
     font-family: 'Mynerve', cursive;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 1.6em;
     margin-left: 40px;
     gap: 10px;
@@ -56,8 +58,8 @@ body{
 .lupa1{
     padding: 20px;
     border-radius: 80px;
-    padding-left: 130px;
-    margin-top: 55px;
+    padding-left: 100px;
+    margin-top: 65px;
     background-image: url(../apieventos/img/lupa.png);
     background-repeat: no-repeat;
     background-size: 80px;
@@ -99,3 +101,4 @@ body{
 .aberto {
     top: 180px;
 }
+
